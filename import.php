@@ -23,7 +23,8 @@ class WPCoupon_Demo_Import {
             'page_on_front' => 166,
             'page_for_posts' => 205,
             'nav'=> array(
-                'primary' => 103
+                'primary' => 103,
+                'footer' => 98
             ),
             'options' => array(
                 'coupons_listing_page' => 'post',
