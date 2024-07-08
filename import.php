@@ -3,7 +3,7 @@
 Plugin Name: Coupon Press Demo Import
 Plugin URI: https://github.com/couponthemes/couponpress-demo-import
 Description: Import your content, widgets and theme settings with one click. Theme authors! Enable simple demo import for your theme demo data.
-Version: 1.0.0
+Version: 1.1
 Author: Coupon Themes
 Author URI: https://couponthemes.net/
 License: GPL3
@@ -23,7 +23,7 @@ class WPCoupon_Demo_Import {
             'page_on_front' => 166,
             'page_for_posts' => 205,
             'nav'=> array(
-                'primary' => 58
+                'primary' => 103
             ),
             'options' => array(
                 'coupons_listing_page' => 'post',
