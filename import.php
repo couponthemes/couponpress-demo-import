@@ -24,7 +24,6 @@ class WPCoupon_Demo_Import {
             'page_for_posts' => 205,
             'nav'=> array(
                 'primary' => 103,
-                'footer' => 98
             ),
             'options' => array(
                 'coupons_listing_page' => 'post',
@@ -66,7 +65,7 @@ class WPCoupon_Demo_Import {
             'xml'        => dirname( __FILE__ ).'/dummy-data/dummy-data.xml',
             'customize'  => dirname( __FILE__ ).'/dummy-data/customize.json',
             'widget'     => dirname( __FILE__ ).'/dummy-data/widgets.json',
-            'option'     => dirname( __FILE__ ).'/dummy-data/options.json',
+            // 'option'     => dirname( __FILE__ ).'/dummy-data/options.json',
             'term_meta'  => dirname( __FILE__ ).'/dummy-data/term-meta.json',
             'option_key' => 'st_options',
         ) );
